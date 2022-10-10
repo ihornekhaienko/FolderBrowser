@@ -1,0 +1,46 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+@model List<FileViewModel>
+
+<form asp-controller="Home" asp-action="Export" asp-route-id="fileName">
+    <fieldset>
+        <legend>Список наявних файлів з каталогами</legend>
+        <div class="container">
+        @foreach (var file in Model)
+        {
+            <div class="field">
+                <a asp-controller="Home" asp-action="Import" asp-route-fileName="@file.FullName" class="label">@file.Name</a>
+                <button type="submit" name="fileName" value=@file.FullName class="button">Експортувати</button>
+            </div>
+        }
+    </div>   
+    </fieldset>     
+</form>
+
+<form asp-controller="Home" asp-action="UploadFromFile" method="post" enctype="multipart/form-data">
+    <fieldset>
+          <legend>Завантажити файл з каталогом</legend>
+        <p><input type="file" name="file" value="Обрати файл"/></p>
+        <p><button type="submit" style="width:115px;">Завантажити</button></p>
+    </fieldset>
+</form>
+
+<form asp-controller="Home" asp-action="UploadFromOS" method="post">
+    <fieldset>
+        <legend>Завантажити з ОС</legend>
+        <div class="container">
+            <div class="field">
+                <label for="path" class="label">Шлях:</label>
+                <input name="path" id="path"/>
+            </div>
+            <div class="field">
+                <label for="name" class="label">Назва папки:</label>
+                <input name="name" id="name"/>
+            </div>
+            <div class="field">
+                <button class="label" type="submit">Завантажити</button>
+            </div>
+        </div>
+    </fieldset>
+</form>

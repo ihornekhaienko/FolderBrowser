@@ -1,0 +1,151 @@
+{
+  "$id": "1",
+  "Name": "runtimes",
+  "Children": [
+    {
+      "$id": "2",
+      "Name": "unix",
+      "Children": [
+        {
+          "$id": "3",
+          "Name": "lib",
+          "Children": [
+            {
+              "$id": "4",
+              "Name": "netcoreapp3.0",
+              "Children": [],
+              "Parent": {
+                "$ref": "3"
+              }
+            },
+            {
+              "$id": "5",
+              "Name": "netcoreapp3.1",
+              "Children": [],
+              "Parent": {
+                "$ref": "3"
+              }
+            }
+          ],
+          "Parent": {
+            "$ref": "2"
+          }
+        }
+      ],
+      "Parent": {
+        "$ref": "1"
+      }
+    },
+    {
+      "$id": "6",
+      "Name": "win",
+      "Children": [
+        {
+          "$id": "7",
+          "Name": "lib",
+          "Children": [
+            {
+              "$id": "8",
+              "Name": "netcoreapp3.0",
+              "Children": [],
+              "Parent": {
+                "$ref": "7"
+              }
+            },
+            {
+              "$id": "9",
+              "Name": "netcoreapp3.1",
+              "Children": [],
+              "Parent": {
+                "$ref": "7"
+              }
+            },
+            {
+              "$id": "10",
+              "Name": "netstandard2.0",
+              "Children": [],
+              "Parent": {
+                "$ref": "7"
+              }
+            }
+          ],
+          "Parent": {
+            "$ref": "6"
+          }
+        }
+      ],
+      "Parent": {
+        "$ref": "1"
+      }
+    },
+    {
+      "$id": "11",
+      "Name": "win-arm",
+      "Children": [
+        {
+          "$id": "12",
+          "Name": "native",
+          "Children": [],
+          "Parent": {
+            "$ref": "11"
+          }
+        }
+      ],
+      "Parent": {
+        "$ref": "1"
+      }
+    },
+    {
+      "$id": "13",
+      "Name": "win-arm64",
+      "Children": [
+        {
+          "$id": "14",
+          "Name": "native",
+          "Children": [],
+          "Parent": {
+            "$ref": "13"
+          }
+        }
+      ],
+      "Parent": {
+        "$ref": "1"
+      }
+    },
+    {
+      "$id": "15",
+      "Name": "win-x64",
+      "Children": [
+        {
+          "$id": "16",
+          "Name": "native",
+          "Children": [],
+          "Parent": {
+            "$ref": "15"
+          }
+        }
+      ],
+      "Parent": {
+        "$ref": "1"
+      }
+    },
+    {
+      "$id": "17",
+      "Name": "win-x86",
+      "Children": [
+        {
+          "$id": "18",
+          "Name": "native",
+          "Children": [],
+          "Parent": {
+            "$ref": "17"
+          }
+        }
+      ],
+      "Parent": {
+        "$ref": "1"
+      }
+    }
+  ],
+  "Parent": null
+}

@@ -1,0 +1,286 @@
+{
+  "$id": "1",
+  "Name": "python",
+  "Children": [
+    {
+      "$id": "2",
+      "Name": ".idea",
+      "Children": [
+        {
+          "$id": "3",
+          "Name": "inspectionProfiles",
+          "Children": [],
+          "Parent": {
+            "$ref": "2"
+          }
+        }
+      ],
+      "Parent": {
+        "$ref": "1"
+      }
+    },
+    {
+      "$id": "4",
+      "Name": "consolidation",
+      "Children": [],
+      "Parent": {
+        "$ref": "1"
+      }
+    },
+    {
+      "$id": "5",
+      "Name": "database",
+      "Children": [
+        {
+          "$id": "6",
+          "Name": "accounts",
+          "Children": [
+            {
+              "$id": "7",
+              "Name": "__pycache__",
+              "Children": [],
+              "Parent": {
+                "$ref": "6"
+              }
+            }
+          ],
+          "Parent": {
+            "$ref": "5"
+          }
+        },
+        {
+          "$id": "8",
+          "Name": "biblio",
+          "Children": [
+            {
+              "$id": "9",
+              "Name": "__pycache__",
+              "Children": [],
+              "Parent": {
+                "$ref": "8"
+              }
+            }
+          ],
+          "Parent": {
+            "$ref": "5"
+          }
+        },
+        {
+          "$id": "10",
+          "Name": "__pycache__",
+          "Children": [],
+          "Parent": {
+            "$ref": "5"
+          }
+        }
+      ],
+      "Parent": {
+        "$ref": "1"
+      }
+    },
+    {
+      "$id": "11",
+      "Name": "extractors",
+      "Children": [
+        {
+          "$id": "12",
+          "Name": "__pycache__",
+          "Children": [],
+          "Parent": {
+            "$ref": "11"
+          }
+        }
+      ],
+      "Parent": {
+        "$ref": "1"
+      }
+    },
+    {
+      "$id": "13",
+      "Name": "gui",
+      "Children": [
+        {
+          "$id": "14",
+          "Name": "authorizing",
+          "Children": [
+            {
+              "$id": "15",
+              "Name": "__pycache__",
+              "Children": [],
+              "Parent": {
+                "$ref": "14"
+              }
+            }
+          ],
+          "Parent": {
+            "$ref": "13"
+          }
+        },
+        {
+          "$id": "16",
+          "Name": "creators",
+          "Children": [
+            {
+              "$id": "17",
+              "Name": "__pycache__",
+              "Children": [],
+              "Parent": {
+                "$ref": "16"
+              }
+            }
+          ],
+          "Parent": {
+            "$ref": "13"
+          }
+        },
+        {
+          "$id": "18",
+          "Name": "editors",
+          "Children": [
+            {
+              "$id": "19",
+              "Name": "__pycache__",
+              "Children": [],
+              "Parent": {
+                "$ref": "18"
+              }
+            }
+          ],
+          "Parent": {
+            "$ref": "13"
+          }
+        },
+        {
+          "$id": "20",
+          "Name": "filters",
+          "Children": [
+            {
+              "$id": "21",
+              "Name": "__pycache__",
+              "Children": [],
+              "Parent": {
+                "$ref": "20"
+              }
+            }
+          ],
+          "Parent": {
+            "$ref": "13"
+          }
+        },
+        {
+          "$id": "22",
+          "Name": "misc",
+          "Children": [
+            {
+              "$id": "23",
+              "Name": "__pycache__",
+              "Children": [],
+              "Parent": {
+                "$ref": "22"
+              }
+            }
+          ],
+          "Parent": {
+            "$ref": "13"
+          }
+        },
+        {
+          "$id": "24",
+          "Name": "tabs",
+          "Children": [
+            {
+              "$id": "25",
+              "Name": "__pycache__",
+              "Children": [],
+              "Parent": {
+                "$ref": "24"
+              }
+            }
+          ],
+          "Parent": {
+            "$ref": "13"
+          }
+        },
+        {
+          "$id": "26",
+          "Name": "__pycache__",
+          "Children": [],
+          "Parent": {
+            "$ref": "13"
+          }
+        }
+      ],
+      "Parent": {
+        "$ref": "1"
+      }
+    },
+    {
+      "$id": "27",
+      "Name": "misc",
+      "Children": [
+        {
+          "$id": "28",
+          "Name": "__pycache__",
+          "Children": [],
+          "Parent": {
+            "$ref": "27"
+          }
+        }
+      ],
+      "Parent": {
+        "$ref": "1"
+      }
+    },
+    {
+      "$id": "29",
+      "Name": "parsers",
+      "Children": [
+        {
+          "$id": "30",
+          "Name": "__pycache__",
+          "Children": [],
+          "Parent": {
+            "$ref": "29"
+          }
+        }
+      ],
+      "Parent": {
+        "$ref": "1"
+      }
+    },
+    {
+      "$id": "31",
+      "Name": "resources",
+      "Children": [],
+      "Parent": {
+        "$ref": "1"
+      }
+    },
+    {
+      "$id": "32",
+      "Name": "verifiers",
+      "Children": [
+        {
+          "$id": "33",
+          "Name": "__pycache__",
+          "Children": [],
+          "Parent": {
+            "$ref": "32"
+          }
+        }
+      ],
+      "Parent": {
+        "$ref": "1"
+      }
+    },
+    {
+      "$id": "34",
+      "Name": "__pycache__",
+      "Children": [],
+      "Parent": {
+        "$ref": "1"
+      }
+    }
+  ],
+  "Parent": null
+}

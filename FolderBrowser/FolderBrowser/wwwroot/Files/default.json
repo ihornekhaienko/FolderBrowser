@@ -1,0 +1,65 @@
+{
+  "$id": "1",
+  "Name": "Creating Digital Images",
+  "Children": [
+    {
+      "$id": "2",
+      "Name": "Resources",
+      "Children": [
+        {
+          "$id": "3",
+          "Name": "Primary Sources",
+          "Children": null,
+          "Parent": {
+            "$ref": "2"
+          }
+        },
+        {
+          "$id": "4",
+          "Name": "Secondary Sources",
+          "Children": null,
+          "Parent": {
+            "$ref": "2"
+          }
+        }
+      ],
+      "Parent": {
+        "$ref": "1"
+      }
+    },
+    {
+      "$id": "5",
+      "Name": "Evidence",
+      "Children": null,
+      "Parent": {
+        "$ref": "1"
+      }
+    },
+    {
+      "$id": "6",
+      "Name": "Graphic Products",
+      "Children": [
+        {
+          "$id": "7",
+          "Name": "Process",
+          "Children": null,
+          "Parent": {
+            "$ref": "6"
+          }
+        },
+        {
+          "$id": "8",
+          "Name": "Final Product",
+          "Children": null,
+          "Parent": {
+            "$ref": "6"
+          }
+        }
+      ],
+      "Parent": {
+        "$ref": "1"
+      }
+    }
+  ],
+  "Parent": null
+}

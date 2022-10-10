@@ -1,0 +1,1667 @@
+{
+  "$id": "1",
+  "Name": "Hospital",
+  "Children": [
+    {
+      "$id": "2",
+      "Name": ".git",
+      "Children": [
+        {
+          "$id": "3",
+          "Name": "hooks",
+          "Children": [],
+          "Parent": {
+            "$ref": "2"
+          }
+        },
+        {
+          "$id": "4",
+          "Name": "info",
+          "Children": [],
+          "Parent": {
+            "$ref": "2"
+          }
+        },
+        {
+          "$id": "5",
+          "Name": "logs",
+          "Children": [
+            {
+              "$id": "6",
+              "Name": "refs",
+              "Children": [
+                {
+                  "$id": "7",
+                  "Name": "heads",
+                  "Children": [],
+                  "Parent": {
+                    "$ref": "6"
+                  }
+                },
+                {
+                  "$id": "8",
+                  "Name": "remotes",
+                  "Children": [
+                    {
+                      "$id": "9",
+                      "Name": "origin",
+                      "Children": [],
+                      "Parent": {
+                        "$ref": "8"
+                      }
+                    }
+                  ],
+                  "Parent": {
+                    "$ref": "6"
+                  }
+                }
+              ],
+              "Parent": {
+                "$ref": "5"
+              }
+            }
+          ],
+          "Parent": {
+            "$ref": "2"
+          }
+        },
+        {
+          "$id": "10",
+          "Name": "objects",
+          "Children": [
+            {
+              "$id": "11",
+              "Name": "00",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "12",
+              "Name": "01",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "13",
+              "Name": "02",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "14",
+              "Name": "04",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "15",
+              "Name": "06",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "16",
+              "Name": "07",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "17",
+              "Name": "08",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "18",
+              "Name": "09",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "19",
+              "Name": "0a",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "20",
+              "Name": "0c",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "21",
+              "Name": "0d",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "22",
+              "Name": "0f",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "23",
+              "Name": "11",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "24",
+              "Name": "12",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "25",
+              "Name": "15",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "26",
+              "Name": "16",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "27",
+              "Name": "17",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "28",
+              "Name": "18",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "29",
+              "Name": "19",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "30",
+              "Name": "1c",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "31",
+              "Name": "1d",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "32",
+              "Name": "20",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "33",
+              "Name": "21",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "34",
+              "Name": "24",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "35",
+              "Name": "2a",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "36",
+              "Name": "2b",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "37",
+              "Name": "2e",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "38",
+              "Name": "32",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "39",
+              "Name": "33",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "40",
+              "Name": "34",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "41",
+              "Name": "35",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "42",
+              "Name": "36",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "43",
+              "Name": "37",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "44",
+              "Name": "38",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "45",
+              "Name": "3a",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "46",
+              "Name": "3b",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "47",
+              "Name": "3d",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "48",
+              "Name": "3e",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "49",
+              "Name": "3f",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "50",
+              "Name": "40",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "51",
+              "Name": "41",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "52",
+              "Name": "43",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "53",
+              "Name": "44",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "54",
+              "Name": "46",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "55",
+              "Name": "47",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "56",
+              "Name": "48",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "57",
+              "Name": "4a",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "58",
+              "Name": "4c",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "59",
+              "Name": "51",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "60",
+              "Name": "53",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "61",
+              "Name": "55",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "62",
+              "Name": "57",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "63",
+              "Name": "58",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "64",
+              "Name": "59",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "65",
+              "Name": "5c",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "66",
+              "Name": "5e",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "67",
+              "Name": "60",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "68",
+              "Name": "61",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "69",
+              "Name": "63",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "70",
+              "Name": "64",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "71",
+              "Name": "65",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "72",
+              "Name": "66",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "73",
+              "Name": "67",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "74",
+              "Name": "68",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "75",
+              "Name": "6b",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "76",
+              "Name": "6c",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "77",
+              "Name": "6d",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "78",
+              "Name": "6e",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "79",
+              "Name": "6f",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "80",
+              "Name": "71",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "81",
+              "Name": "72",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "82",
+              "Name": "73",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "83",
+              "Name": "75",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "84",
+              "Name": "76",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "85",
+              "Name": "77",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "86",
+              "Name": "79",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "87",
+              "Name": "7a",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "88",
+              "Name": "7c",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "89",
+              "Name": "7f",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "90",
+              "Name": "81",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "91",
+              "Name": "85",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "92",
+              "Name": "88",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "93",
+              "Name": "89",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "94",
+              "Name": "8a",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "95",
+              "Name": "8b",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "96",
+              "Name": "8c",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "97",
+              "Name": "8d",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "98",
+              "Name": "8e",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "99",
+              "Name": "91",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "100",
+              "Name": "92",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "101",
+              "Name": "93",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "102",
+              "Name": "94",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "103",
+              "Name": "97",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "104",
+              "Name": "98",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "105",
+              "Name": "99",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "106",
+              "Name": "9a",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "107",
+              "Name": "9b",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "108",
+              "Name": "9c",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "109",
+              "Name": "9d",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "110",
+              "Name": "9f",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "111",
+              "Name": "a0",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "112",
+              "Name": "a3",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "113",
+              "Name": "a4",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "114",
+              "Name": "a5",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "115",
+              "Name": "a7",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "116",
+              "Name": "a8",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "117",
+              "Name": "ae",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "118",
+              "Name": "af",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "119",
+              "Name": "b0",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "120",
+              "Name": "b1",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "121",
+              "Name": "b5",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "122",
+              "Name": "b8",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "123",
+              "Name": "b9",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "124",
+              "Name": "bc",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "125",
+              "Name": "bd",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "126",
+              "Name": "be",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "127",
+              "Name": "c0",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "128",
+              "Name": "c1",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "129",
+              "Name": "c2",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "130",
+              "Name": "c3",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "131",
+              "Name": "c4",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "132",
+              "Name": "c6",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "133",
+              "Name": "c7",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "134",
+              "Name": "c8",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "135",
+              "Name": "ca",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "136",
+              "Name": "cc",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "137",
+              "Name": "cd",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "138",
+              "Name": "d0",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "139",
+              "Name": "d1",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "140",
+              "Name": "d2",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "141",
+              "Name": "d5",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "142",
+              "Name": "d8",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "143",
+              "Name": "d9",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "144",
+              "Name": "da",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "145",
+              "Name": "db",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "146",
+              "Name": "dc",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "147",
+              "Name": "dd",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "148",
+              "Name": "df",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "149",
+              "Name": "e0",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "150",
+              "Name": "e2",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "151",
+              "Name": "e4",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "152",
+              "Name": "e8",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "153",
+              "Name": "eb",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "154",
+              "Name": "ed",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "155",
+              "Name": "ee",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "156",
+              "Name": "ef",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "157",
+              "Name": "f0",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "158",
+              "Name": "f3",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "159",
+              "Name": "f4",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "160",
+              "Name": "f5",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "161",
+              "Name": "f6",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "162",
+              "Name": "f7",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "163",
+              "Name": "fa",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "164",
+              "Name": "fd",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "165",
+              "Name": "fe",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "166",
+              "Name": "ff",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "167",
+              "Name": "info",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            },
+            {
+              "$id": "168",
+              "Name": "pack",
+              "Children": [],
+              "Parent": {
+                "$ref": "10"
+              }
+            }
+          ],
+          "Parent": {
+            "$ref": "2"
+          }
+        },
+        {
+          "$id": "169",
+          "Name": "refs",
+          "Children": [
+            {
+              "$id": "170",
+              "Name": "heads",
+              "Children": [],
+              "Parent": {
+                "$ref": "169"
+              }
+            },
+            {
+              "$id": "171",
+              "Name": "remotes",
+              "Children": [
+                {
+                  "$id": "172",
+                  "Name": "origin",
+                  "Children": [],
+                  "Parent": {
+                    "$ref": "171"
+                  }
+                }
+              ],
+              "Parent": {
+                "$ref": "169"
+              }
+            },
+            {
+              "$id": "173",
+              "Name": "tags",
+              "Children": [],
+              "Parent": {
+                "$ref": "169"
+              }
+            }
+          ],
+          "Parent": {
+            "$ref": "2"
+          }
+        }
+      ],
+      "Parent": {
+        "$ref": "1"
+      }
+    },
+    {
+      "$id": "174",
+      "Name": ".vs",
+      "Children": [
+        {
+          "$id": "175",
+          "Name": "Hospital",
+          "Children": [
+            {
+              "$id": "176",
+              "Name": "DesignTimeBuild",
+              "Children": [],
+              "Parent": {
+                "$ref": "175"
+              }
+            },
+            {
+              "$id": "177",
+              "Name": "v16",
+              "Children": [],
+              "Parent": {
+                "$ref": "175"
+              }
+            }
+          ],
+          "Parent": {
+            "$ref": "174"
+          }
+        }
+      ],
+      "Parent": {
+        "$ref": "1"
+      }
+    },
+    {
+      "$id": "178",
+      "Name": "Hospital",
+      "Children": [
+        {
+          "$id": "179",
+          "Name": "bin",
+          "Children": [
+            {
+              "$id": "180",
+              "Name": "Debug",
+              "Children": [
+                {
+                  "$id": "181",
+                  "Name": "netcoreapp3.1",
+                  "Children": [],
+                  "Parent": {
+                    "$ref": "180"
+                  }
+                }
+              ],
+              "Parent": {
+                "$ref": "179"
+              }
+            }
+          ],
+          "Parent": {
+            "$ref": "178"
+          }
+        },
+        {
+          "$id": "182",
+          "Name": "Data",
+          "Children": [],
+          "Parent": {
+            "$ref": "178"
+          }
+        },
+        {
+          "$id": "183",
+          "Name": "Models",
+          "Children": [
+            {
+              "$id": "184",
+              "Name": "Identity",
+              "Children": [],
+              "Parent": {
+                "$ref": "183"
+              }
+            }
+          ],
+          "Parent": {
+            "$ref": "178"
+          }
+        },
+        {
+          "$id": "185",
+          "Name": "obj",
+          "Children": [
+            {
+              "$id": "186",
+              "Name": "Debug",
+              "Children": [
+                {
+                  "$id": "187",
+                  "Name": "netcoreapp3.1",
+                  "Children": [
+                    {
+                      "$id": "188",
+                      "Name": "Resources",
+                      "Children": [],
+                      "Parent": {
+                        "$ref": "187"
+                      }
+                    },
+                    {
+                      "$id": "189",
+                      "Name": "Views",
+                      "Children": [
+                        {
+                          "$id": "190",
+                          "Name": "AdminUI",
+                          "Children": [],
+                          "Parent": {
+                            "$ref": "189"
+                          }
+                        },
+                        {
+                          "$id": "191",
+                          "Name": "DoctorUI",
+                          "Children": [],
+                          "Parent": {
+                            "$ref": "189"
+                          }
+                        },
+                        {
+                          "$id": "192",
+                          "Name": "Filters",
+                          "Children": [],
+                          "Parent": {
+                            "$ref": "189"
+                          }
+                        },
+                        {
+                          "$id": "193",
+                          "Name": "Shared",
+                          "Children": [],
+                          "Parent": {
+                            "$ref": "189"
+                          }
+                        },
+                        {
+                          "$id": "194",
+                          "Name": "StudentUI",
+                          "Children": [],
+                          "Parent": {
+                            "$ref": "189"
+                          }
+                        }
+                      ],
+                      "Parent": {
+                        "$ref": "187"
+                      }
+                    }
+                  ],
+                  "Parent": {
+                    "$ref": "186"
+                  }
+                }
+              ],
+              "Parent": {
+                "$ref": "185"
+              }
+            }
+          ],
+          "Parent": {
+            "$ref": "178"
+          }
+        },
+        {
+          "$id": "195",
+          "Name": "Resources",
+          "Children": [
+            {
+              "$id": "196",
+              "Name": "Images",
+              "Children": [],
+              "Parent": {
+                "$ref": "195"
+              }
+            }
+          ],
+          "Parent": {
+            "$ref": "178"
+          }
+        },
+        {
+          "$id": "197",
+          "Name": "Services",
+          "Children": [
+            {
+              "$id": "198",
+              "Name": "Implementations",
+              "Children": [],
+              "Parent": {
+                "$ref": "197"
+              }
+            },
+            {
+              "$id": "199",
+              "Name": "Interfaces",
+              "Children": [],
+              "Parent": {
+                "$ref": "197"
+              }
+            }
+          ],
+          "Parent": {
+            "$ref": "178"
+          }
+        },
+        {
+          "$id": "200",
+          "Name": "ViewModels",
+          "Children": [],
+          "Parent": {
+            "$ref": "178"
+          }
+        },
+        {
+          "$id": "201",
+          "Name": "Views",
+          "Children": [
+            {
+              "$id": "202",
+              "Name": "AdminUI",
+              "Children": [],
+              "Parent": {
+                "$ref": "201"
+              }
+            },
+            {
+              "$id": "203",
+              "Name": "DoctorUI",
+              "Children": [],
+              "Parent": {
+                "$ref": "201"
+              }
+            },
+            {
+              "$id": "204",
+              "Name": "Filters",
+              "Children": [],
+              "Parent": {
+                "$ref": "201"
+              }
+            },
+            {
+              "$id": "205",
+              "Name": "Shared",
+              "Children": [],
+              "Parent": {
+                "$ref": "201"
+              }
+            },
+            {
+              "$id": "206",
+              "Name": "StudentUI",
+              "Children": [],
+              "Parent": {
+                "$ref": "201"
+              }
+            }
+          ],
+          "Parent": {
+            "$ref": "178"
+          }
+        }
+      ],
+      "Parent": {
+        "$ref": "1"
+      }
+    }
+  ],
+  "Parent": null
+}
