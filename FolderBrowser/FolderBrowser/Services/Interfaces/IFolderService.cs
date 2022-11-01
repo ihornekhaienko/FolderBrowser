@@ -1,4 +1,4 @@
-﻿using FolderBrowser.Models;
+using FolderBrowser.Models;
 
 namespace FolderBrowser.Services.Interfaces
 {
@@ -14,5 +14,6 @@ namespace FolderBrowser.Services.Interfaces
         public List<Folder> GetChildren(Folder folder);
         public void Export();
         public int Import(Folder root);
+        public Folder? Parse(string path);
     }
 }
