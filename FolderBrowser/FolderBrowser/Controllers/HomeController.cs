@@ -1,4 +1,4 @@
-﻿using FolderBrowser.Models;
+using FolderBrowser.Models;
 using FolderBrowser.Services.Interfaces;
 using FolderBrowser.ViewModels;
 using Microsoft.AspNetCore.Mvc;
@@ -49,7 +49,6 @@ namespace FolderBrowser.Controllers
         {
             try
             {
-                logger.LogCritical(fileName);
                 folderService.Export();
 
                 string path = Path.Combine(appEnvironment.WebRootPath, "Files", fileName);
@@ -60,8 +59,9 @@ namespace FolderBrowser.Controllers
                 }
 
                 int id = folderService.Import(root);
+                var node = folderService.GetById(id);
 
-                return RedirectToAction("Browse", "Home", new { id = id });
+                return Redirect($"Browse/{node?.Name}");
             }
             catch (Exception err)
             {
@@ -69,17 +69,15 @@ namespace FolderBrowser.Controllers
             }
         }
 
-        /// <summary>
-        /// Action for browsing the directory tree.
-        /// </summary>
-        /// <param name="id">Id of the current tree node</param>
-        /// <returns>ViewResult</returns>
+        [Route("Home/Browse/{*path}")]
         [HttpGet]
-        public IActionResult Browse(int id)
+        public IActionResult Browse()
         {
             try
             {
-                var currentFolder = folderService.GetById(id);
+                var path = RouteData.Values["path"]?.ToString();
+
+                var currentFolder = folderService.Parse(path);
 
                 if (currentFolder == null)
                 {
@@ -87,7 +85,14 @@ namespace FolderBrowser.Controllers
                 }
 
                 ViewBag.CurrentFolder = currentFolder.Name;
-                var children = folderService.GetChildren(currentFolder);
+
+                var children = folderService.GetChildren(currentFolder)
+                    .Select(f => new FolderBrowseViewModel { Name = f.Name, Path = $"{currentFolder.Name}/{f.Name}" }).ToList();
+
+                foreach (var i in children)
+                {
+                    logger.LogCritical(i.Name);
+                }
 
                 return View(children);
             }
@@ -148,7 +153,7 @@ namespace FolderBrowser.Controllers
         }
 
         /// <summary>
-        /// Action for generating directory tree from the project caralogue.
+        /// Action for generating directory tree from the project catalogue.
         /// After checking the existence of the directory on server adds found folders to list using breadth-first search algorithm.
         /// And finally generated list of Folder objects serializes and exports to the wwwroot/Files folder.
         /// </summary>
