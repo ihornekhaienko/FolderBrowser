@@ -1,4 +1,4 @@
-﻿using FolderBrowser.Data;
+using FolderBrowser.Data;
 using FolderBrowser.Models;
 using FolderBrowser.Services.Interfaces;
 
@@ -117,6 +117,33 @@ namespace FolderBrowser.Services.Implementations
 
             int id = GetAll().First().Id;
             return id;
+        }
+
+        public Folder? Parse(string path)
+        {
+            if (!db.Folders.Any())
+            {
+                return null;
+            }
+
+            Folder? currentNode = null;
+            var level = new List<Folder> { GetAll().First() };
+            var folders = path.Split("/");
+
+            foreach (var folder in folders)
+            {
+                if (level == null || !level.Any(f => f.Name == folder))
+                {
+                    return null;
+                }
+                else
+                {
+                    currentNode = level.Where(f => f.Name == folder).FirstOrDefault();
+                    level = currentNode?.Children?.ToList();
+                }
+            }
+
+            return currentNode;
         }
     }
 }
