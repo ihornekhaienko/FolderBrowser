@@ -1,10 +1,10 @@
-﻿@{
+@{
     ViewBag.Title = ViewBag.CurrentFolder;
 }
-@model List<Folder>
+@model List<FolderBrowseViewModel>
 
 <h2>"Folder" - @ViewBag.CurrentFolder</h2>
 @foreach (var folder in Model)
 {
-    <p><a asp-controller="Home" asp-action="Browse" asp-route-id="@folder.Id">@folder.Name</a></p>
+    <p><a href="@folder.Path">@folder.Name</a></p>
 }
